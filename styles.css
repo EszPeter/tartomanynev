@@ -5,6 +5,8 @@ body {
   background-position-y: center;
   background-attachment: fixed;
   background-size: cover;
+  background-image: url("back.jpg");
+  text-align: justify;
 }
 
 #tartalom {
@@ -58,4 +60,17 @@ p {
 h3{
   font-weight: bold;
   text-indent: 10px;
+}
+
+a{
+  text-decoration: none;
+  color: yellow;
+}
+
+a:visited{
+  color: yellow;
+}
+
+a:hover{
+  color: red;
 }
